@@ -6,7 +6,8 @@
 ## Option
 
 * [Introduction](option/introduction.md)
-* [Methods](option/methods.md)
+* [Methods](option/methods/README.md)
+  * [isSome](option/methods/issome.md)
 
 ## Result
 
