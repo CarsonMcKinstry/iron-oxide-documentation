@@ -1,4 +1,4 @@
-# Introduction
+# Using Result
 
 Sometimes we want to give more information about the failure of a function than just returning `None`. The `Result` type is used to do this. It is similar to `Option` in that it can wrap a value, but it can also wrap an error. `Result` is generic over `T` ,the type of the value, and `E` , the type of the error.
 
@@ -16,13 +16,13 @@ function parseInt(
     radix?: number
 ): Result<number, string> {
     const result = parseInt(maybeInt, radix);
-    
+
     if (isNaN(result)) {
         return Err(
             `Attempted to parse ${maybeInt} as an integer`
         );
     }
-    
+
     return Ok(result);
 }
 ```

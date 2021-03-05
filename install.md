@@ -1,6 +1,6 @@
 # Install
 
-This project is distributed via [npm](https://www.npmjs.com/package/iron-oxide) which is bundled with [node](https://nodejs.org/) and should be installed as one of your project's `dependencies`. 
+This project is distributed via [npm](https://www.npmjs.com/package/iron-oxide) which is bundled with [node](https://nodejs.org/) and should be installed as one of your project's `dependencies`.
 
 ```bash
 $ npm install iron-oxide

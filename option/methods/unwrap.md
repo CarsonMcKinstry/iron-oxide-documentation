@@ -1,17 +1,14 @@
-# Option.unwrap
+# unwrap
 
 `Option.unwraps` returns the value contained in a `Some` and throws if the `Option` is `None`.
 
 ```typescript
-
 Option<T>.unwrap = () => T;
-
 ```
 
-### Example
+## Example
 
 ```typescript
-
 const carson = find(people, person => person.name === "Carson");
 
 try {
@@ -20,3 +17,4 @@ try {
     console.error(err);
 }
 ```
+

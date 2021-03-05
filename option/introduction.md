@@ -1,4 +1,4 @@
-# Introduction
+# Using Option
 
 `Option` is used to catch errors in a uniform way, where we don't necessarily care about the failure reason. They are generic over `T`.
 
@@ -15,12 +15,12 @@ function find<T>(
     predicate: (value: T) => boolean
 ): Option<T> {
     const value = arr.find(v => predicate(v));
-    
+
     // if the value is undefined, we return `None`, our failure state
     if (value === undefined) {
         return None();
     }
-    
+
     // otherwise, we wrap the value in `Some`
     return Some(value);
 }

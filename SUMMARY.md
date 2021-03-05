@@ -5,7 +5,7 @@
 
 ## Option
 
-* [Introduction](option/introduction.md)
+* [Using Option](option/introduction.md)
 * [Methods](option/methods/README.md)
   * [isSome](option/methods/issome.md)
   * [isNone](option/methods/isnone.md)
@@ -28,10 +28,11 @@
 
 ## Result
 
-* [Introduction](result/introduction.md)
+* [Using Result](result/introduction.md)
 * [Methods](result/methods/README.md)
   * [isOk](result/methods/isok.md)
 
 ## Match
 
-* [Introduction](match/introduction.md)
+* [Using match](match/introduction.md)
+

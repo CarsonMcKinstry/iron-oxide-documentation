@@ -1,8 +1,8 @@
 # Methods
 
-`Option` comes with some built-in methods for interacting with the value wrapped in `Option`  and handling what happens when your `Option` is a `None`.
+`Option` comes with some built-in methods for interacting with the value wrapped in `Option` and handling what happens when your `Option` is a `None`.
 
-### Interacting with the value
+## Interacting with the value
 
 From our introductory example, we now have a `find` function with the signature
 
@@ -49,7 +49,7 @@ const newLucy = find(people, ({ name }) => name === "Lucy")
 
 Nothing will actually happen. We would expect that normally this would throw a nasty exception, something on the lines of `lucy is not defined`. In our case, `find` returns `None` , which won't cause the rest of our code to fail. But how do we figure out if the operation actually failed?
 
-### Checking for failure
+## Checking for failure
 
 `Option` comes with a few ways to check if the value is `None`, such as the `isNone` method
 
@@ -69,6 +69,4 @@ catch (err) {
     console.err(err);
 }
 ```
-
-
 
