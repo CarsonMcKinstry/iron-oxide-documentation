@@ -1,4 +1,4 @@
-build:
+publish:
 	git checkout gh-pages
 	git merge main --no-edit
 	mdbook build -d docs
