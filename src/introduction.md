@@ -1,4 +1,4 @@
-# Introduction
+# iron-oxide
 
 `iron-oxide` offers some Rust style exception handling and rudimentary pattern matching.
 
