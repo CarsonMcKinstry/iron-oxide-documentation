@@ -1,8 +1,2 @@
-publish:
-	git checkout gh-pages
-	git rebase main
+build:
 	mdbook build -d docs
-	git add .
-	git commit -m "update mdbook"
-	git push
-	git checkout main
