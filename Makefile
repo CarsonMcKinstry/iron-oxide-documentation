@@ -5,3 +5,4 @@ build:
 	git add .
 	git commit -m "update docs"
 	git push
+	git checkout main
