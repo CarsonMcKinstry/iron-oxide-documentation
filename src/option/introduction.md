@@ -8,6 +8,9 @@ There are two variants of `Option<T>`:
 * `Some(value)`, a wrapper around of `value` of type `T`
 
 ```typescript
+
+import { Option, Some, None } from 'iron-oxide';
+
 // Array.prototype.find returns undefined if it doesn't find a value
 // let's fix that
 function find<T>(
