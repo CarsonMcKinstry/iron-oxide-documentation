@@ -1,8 +1,6 @@
 publish:
-	git checkout gh-pages
-	git merge main --no-edit
+	git merge main
 	mdbook build -d docs
 	git add .
 	git commit -m "update docs"
 	git push
-	git checkout main
