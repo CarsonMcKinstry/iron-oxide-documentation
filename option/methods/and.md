@@ -3,7 +3,7 @@
 `Option.and` returns `None` if the `Option` is `None`, otherwise returns `optionB`.
 
 ```typescript
-Option<T>.and<U> = (optionB: Option<U>): Option<U>
+Option<T>.and<U> = (optionB: Option<U>) => Option<U>
 ```
 
 ## Example

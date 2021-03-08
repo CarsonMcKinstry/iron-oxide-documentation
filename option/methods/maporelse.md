@@ -1,6 +1,6 @@
 # mapOrElse
 
-`Option.mapOr` transforms the contained value and returns it, returning the value returned by the provided closer if the `Option` is `None`.
+`Option.mapOr` transforms the contained value and returns it, returning the value returned by the provided closure if the `Option` is `None`.
 
 ```typescript
 Option<T>.mapOrElse<U> = (def: () => U, proj: (value: T) => U) => U;

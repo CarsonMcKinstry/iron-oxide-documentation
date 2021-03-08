@@ -95,3 +95,25 @@ sqrt(-1)
         }
     })
 ```
+
+<!-- 
+  map<U>(proj: (a: T) => U): Result<U, E>;
+  mapErr<F>(op: (err: E) => F): Result<T, F>;
+  mapOr<U>(def: U, proj: (a: T) => U): U;
+  mapOrElse<U>(def: () => U, proj: (a: T) => U): U;
+  isOk(): boolean;
+  isErr(): boolean;
+  ok(): Option<T>;
+  err(): Option<E>;
+  and<U>(res: Result<U, E>): Result<U, E>;
+  andThen<U>(op: (a: T) => Result<U, E>): Result<U, E>;
+  or(res: Result<T, E>): Result<T, E>;
+  orElse<F>(op: (a: E) => Result<T, F>): Result<T, F>;
+  unwrap(): T;
+  unwrapErr(): E;
+  unwrapOr(optb: T): T;
+  unwrapOrElse(op: (err: E) => T): T;
+  expect(msg: string): T;
+  expectErr(msg: string): E;
+  is(res: Result<T, E>): boolean;
+  -->

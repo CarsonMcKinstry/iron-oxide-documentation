@@ -1,6 +1,6 @@
 # unwrap
 
-`Option.unwraps` returns the value contained in a `Some` and throws if the `Option` is `None`.
+`Option.unwrap` returns the value contained in a `Some` and throws if the `Option` is `None`.
 
 ```typescript
 Option<T>.unwrap = () => T;
