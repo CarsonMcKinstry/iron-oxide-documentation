@@ -1,9 +1,9 @@
-# Table of contents
+# Summary
 
-* [Introduction](README.md)
-* [Install](install.md)
+[iron-oxide](introduction.md)
+[Installation](installation.md)
 
-## Option
+# Option
 
 * [Using Option](option/introduction.md)
 * [Methods](option/methods/README.md)
@@ -26,7 +26,7 @@
   * [expect](option/methods/expect.md)
   * [is](option/methods/is.md)
 
-## Result
+# Result
 
 * [Using Result](result/introduction.md)
 * [Methods](result/methods/README.md)
@@ -50,6 +50,6 @@
   * [expectErr](result/methods/expecterr.md)
   * [is](result/methods/is.md)
 
-## Match
+# Match
 
 * [Using match](match/introduction.md)
