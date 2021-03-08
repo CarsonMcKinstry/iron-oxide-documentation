@@ -169,12 +169,12 @@
 <p>Exception handling in JavaScript and TypeScript can be notoriously cumbersome and confusing. For example, <code>Array.prototype.find</code> returns <code>undefined</code> and <code>Array.prototype.indexOf</code> returns <code>-1</code>; the return types for these exceptions don't match and thus can be confusing, especially for newer developers. JS also allows you to throw errors and catch them using <code>try/catch</code> blocks. The problem compounds itself even more when we start using promises and asynchronous code.</p>
 <h2 id="the-solution"><a class="header" href="#the-solution">The Solution</a></h2>
 <p>In Rust, we have two types in the standard library <a href="https://doc.rust-lang.org/rust-by-example/std/option.html"><code>Option</code></a> and <a href="https://doc.rust-lang.org/rust-by-example/std/result.html"><code>Result</code></a> for handling exceptions. <code>Option</code> is used to catch failure in a part of the application where it doesn't make sense to <code>panic</code>, or <code>throw</code> in the case of JavaScript. <code>Result</code> is similar to <code>Option</code> except that it can contain the reason for the failure, allowing us to say <em>why</em> a function failed.</p>
-<p><code>Option</code>s come in two flavors:</p>
+<p><code>Option</code> comes in two flavors:</p>
 <ul>
 <li><code>Some</code> representing success or a value</li>
 <li><code>None</code> representing failure or lack of a value</li>
 </ul>
-<p><code>Result</code>s also come in two flavors:</p>
+<p><code>Result</code> also comes in two flavors:</p>
 <ul>
 <li><code>Ok</code> representing success or a value</li>
 <li><code>Err</code> representing failure, or lack of a value, <em>with a reason</em></li>
