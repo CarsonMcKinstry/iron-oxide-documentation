@@ -24,7 +24,6 @@
   * [filter](option/methods/filter.md)
   * [zip](option/methods/zip.md)
   * [expect](option/methods/expect.md)
-  * [is](option/methods/is.md)
 
 # Result
 
@@ -48,7 +47,6 @@
   * [unwrapOrElse](result/methods/unwraporelse.md)
   * [expect](result/methods/expect.md)
   * [expectErr](result/methods/expecterr.md)
-  * [is](result/methods/is.md)
 
 # Match
 
